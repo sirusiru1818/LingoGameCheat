@@ -14,7 +14,7 @@ int main(void) {
         return 1;
     }
     
-    printf("%d %d",rows,cols);
+    printf("%d %d\n",rows,cols);
     
     
     return 0;
