@@ -6,9 +6,16 @@
 //
 
 #include <stdio.h>
+#include "MatrixReader.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void) {
+    int rows, cols;
+    if(get_matrix_size("matrix.txt", &rows, &cols) != 0) {
+        return 1;
+    }
+    
+    printf("%d %d",rows,cols);
+    
+    
     return 0;
 }
