@@ -16,6 +16,5 @@ int main(void) {
     
     printf("%d %d\n",rows,cols);
     
-    
     return 0;
 }
